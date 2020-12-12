@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  display: inline-flex;
+}
+
+.column {
+  display: block;
+  margin: auto;
+  width: min-content;
+}
+
+p.instruction {
+  margin-top: 30vh;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+p.log {
+  text-align: center;
+}
+
+div.form {
+  width: fit-content;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+  display: inline-block;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 200px;
+}
+
+button {
+  float: right;
+  padding: 5px 10px 5px 10px;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(77, 77, 218);
+}
+
+div.changeAction {
+  margin-top: 21px;
+  margin-left: 10px;
+}
